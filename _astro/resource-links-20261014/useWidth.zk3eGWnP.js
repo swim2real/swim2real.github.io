@@ -1,0 +1,1 @@
+import{r as t}from"./index.D55ewHcJ.js";function d(o){const e=t.useRef(null),[c,u]=t.useState(o);return t.useEffect(()=>{const r=e.current;if(!r)return;const n=new ResizeObserver(([i])=>{const s=Math.round(i.contentRect.width);s>0&&u(s)});return n.observe(r),()=>n.disconnect()},[]),[e,c]}export{d as u};
